@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div id="slider">
+    <div id="slide-holder">
+        {{ range .Site.Data.slider }}
+        <a class="slide" style="background-image: url('{{ .image }}');" href="{{ .link }}">
+            <div class="slide-overlay">
+                <h2>{{ .title }}</h2>
+                <p>{{ .subtitle }}</p>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+<img src="/assets/nlogo.png" class="center" alt="SRTE Logo">
+
+<div class="container">
+    <h2>Sonic Riders Tournament Edition is a complete overhaul of the original 2006 racing game that adds new characters, mechanics, stage changes, balance changes, and so much more.<h2>
+</div>
+{{ end }}

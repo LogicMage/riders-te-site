@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container">
+    <h1>Credits</h1>
+    <h2>Development Team - First Division</h2>
+    <ul>
+        {{ range .Params.dev_team_first }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+    <h2>Development Team - Second Division</h2>
+    <ul>
+        {{ range .Params.dev_team_second }}
+        <li>{{ . }}</li>
+        {{ end }}
+    </ul>
+
+    <h1>One Very Important Thought</h1>
+    <p>We do not sell our mod. If you paid somebody for a copy of Sonic Riders Tournament Edition, you should demand a refund. <a href="https://www.sonicriders.org/download">You can download the patch here.</a></p>
+    <p>Buying merchandise is a fantastic way to support the project. If you would like to see more Riders in an official capacity, support SEGA's releases.</p>
+
+    <h1>Contact</h1>
+    <p>For support with the mod, please join the official Discord server.</p>
+    <p>For inquiries or issues with the store, please reach out to us here: <a href="mailto:merch@sonicriders.org">merch@sonicriders.org</a></p>
+</div>
+{{ end }}

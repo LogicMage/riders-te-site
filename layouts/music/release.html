@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div class="product-container-wrapper">
+    <img src="{{ .Params.cover }}" alt="{{ .Title }} Cover" class="album-cover" loading="lazy" />
+    <div class="product-container">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
+
+      {{ with .Params.tracks }}
+        <p>Tracklist:</p>
+        <ul>
+          {{ range . }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+
+      {{ with .Params.buy_url }}
+        <a id="buy-link" href="{{ . }}" target="_blank" rel="noreferrer">
+          <p id="buy-button">BUY NOW</p>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ with .Params.audio_preview_src }}
+    <figure>
+      <figcaption>{{ $.Params.audio_preview_title }}</figcaption>
+      <br />
+      <audio controls src="{{ . }}"></audio>
+    </figure>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,117 @@
+#product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 4rem 2rem;
+  margin: 0;
+  justify-items: center;
+}
+
+#product-grid > a {
+  width: 75%;
+  text-decoration: none;
+  color: inherit;
+}
+
+#product-grid li {
+  background: var(--background-content, rgba(0, 0, 0, 0.6));
+  border: 1px solid var(--grid, #444);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  color: var(--body);
+  font-family: new-rodin, sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#product-grid img:hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  animation-fill-mode: both;
+
+}
+
+#product-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+#product-grid .title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  color: var(--header);
+}
+
+#product-grid .price {
+  font-size: 1rem;
+  color: var(--bodyalt);
+}
+
+.product-container-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4rem 2rem 1rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.album-cover {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  background: var(--background-content);
+}
+
+.product-container {
+  background-color: var(--background-content);
+  padding: 0rem 6rem;
+  border-radius: 12px;
+  max-width: 800px;
+  flex: 1;
+}
+
+#buy-link {
+  text-decoration: none;
+}
+
+#buy-button {
+  display: inline-block;
+  margin-top: 3.5rem;
+  padding: 0.75rem 2rem;
+  background-color: var(--body);
+  color: var(--background);
+  font-family: new-rodin, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  border: 2px solid var(--header);
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--bodyalt);
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buy-button:hover {
+  background-color: var(--background);
+  color: var(--body);
+  box-shadow: 0 0 14px var(--body);
+}
+
+figure {
+  text-align: center;
+}

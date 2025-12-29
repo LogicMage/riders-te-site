@@ -1,0 +1,133 @@
+L: All right, KC, how are you doing today?
+
+K: I'm doing all right, you know. It's the end of the year, it's that time of year, and my god, I gotta shave so bad dude. I gotta shave so bad.
+
+L: I feel that, I feel that. Well, thank you for joining me today. I'm really glad that we can do this because I've been looking forward to setting up some kind of project where we can do this for a long time. I've always wanted to be able to take a look into some of the inspirations of people who work on the project because we have a lot of interesting personalities here. So I want to thank you for being kind of my guinea pig as far as being the first person to do an interview. I'm excited, thanks for being here. 
+
+K: Yeah, no problem. 
+
+L: Awesome. So what was your first Sonic game and which one's your favorite? 
+
+K: Well, as far back as I remember... it's a little hazy of course, but I do remember I owned was a Wii. So in fact, my first Sonic games were like, all the really bad ones on the Wii: Secret Rings, Unleashed, and Zero Gravity. I had all three of them. I mean, as a kid, they were pretty awesome and I didn't know there was any other version of Unleashed for at least ten to twelve years - I literally didn't know that they had a PS3 version until I was looking at the PS3 storefront one day. I was like, huh, they have Unleashed on here too. And then I saw the screenshot. I was like, "this is not the same game! Wait a minute, what the hell? Oh, oh, what the?" I was flabbergasted, but it was fun anyway. I liked all three of 'em. I mean, I didn't know any better, but they were peak to me.
+
+L: I've never played UnWiished, but it's interesting you say that because I know there are some dedicated fans of it.
+
+K: I think it's good. I mean, it's different gameplay. There was a guy out there who talked about Unleashed in like two or three videos. And he talks a lot about how the boost formula being a little different has its merits. Like in UnWiished, you don't hold B to boost or whatever. You shake the Wiimote or whatever it is on PS2, and then it does a short-term boost, like a Riders boost. There's like a short, like a duration-based boost and you just keep repeating it, right? So it's finding the places where you can do that boost because you know you only have for limited times. You want to stretch - you want to maximize your usage of that boost because it's in segments. It's literally just like the Riders boost, except you get it through rings, of course, and action challenges and whatever. 
+
+K: But I mean, I definitely think the gameplay has its merits. The Werehog stages were long though. Oh my god, Chunon. 
+
+L: *laughs*
+
+K: Dude, I sat there and I'm like, oh, I got through the first stage. Like, okay, I got through that second stage. Now it's like, oh my god, you gotta be kidding me. The third stage. It's like fifteen to twenty minutes for each stage. It's like an hour in Chunon. And I'm like, that's too long for anybody, bro. I could not imagine the PS3 version. I still haven't played it to this day. I've heard the stage lengths are pretty bad no matter which version you play. 
+
+L: It's interesting you say that about the dash because it kind of recalls how Colors had something similar - with the air dash you could do on command. So I almost wonder if those games are sort of trying to adapt things like the Spin Dash from the classic games, right? Where they're trying to adapt some of those instant-momentum mechanics to make more sense in 3D. That's how I see it.
+
+K: I mean, maybe. But then again, Dimps didn't work on Colors. That was definitely just Sega. Dimps worked on Unleashed, which was like, yeah, you know, it has different gameplay. And, you know, they definitely have their style of Sonic. We see it in Rush. We see it in UnWiished. We see it in, I think they did Advance too, right? So you can definitely tell when Dimps made a game. And I feel like Colors just stuck with the whole taboos. I'm pretty sure. I mean, it's been a while since I played Colors, but it definitely was a whole taboos game as far as I remember. 
+
+L: So how'd you get into ROM hacking originally? 
+
+K: Um, well, I worked on another game, another fangame, Jet Set Radio Future Multiplayer. And for those who know, it was the way to play Jet Set Radio Future, like in general, next to just emulating it. But, I mean, it wasn't one-to-one like at all. The physics were different. The controls were different. The purists, oh, they hated that. They're like, oh, why are they not making it exactly the same? And I'm like, well, the guy doesn't really - it was like a project in high school. I don't think it would have worked. But the time being, it was great for just playing with friends because the multiplayer worked really well. During that time-
+
+L: Sorry, can I just stop you right there? So I just want to clarify, this was a ROM hack or it was a-
+
+K: No, no, it was a Unity game.
+
+L: Okay, okay, right. 
+
+K: Yeah, yeah, it was kind of a remake, but, you know, it used assets from the original, of course. There was also fan content in there, original content, different modes, you know, you couldn't play a story mode. There was no story mode. There was going to be one, but that was scrapped way, way later. It was too much work for the few people. But point is that at some point in there, somebody talked about this one game and it was called Ollie King, right? And I'm like - "oh, what's that game?" And then I see footage of it or whatever bits of footage existed at the time, because it was basically none. 
+
+K: And I was like, "wow, this game is incredible!" And then they're like, "yeah, you can't play it. You can't emulate it." I'm like, "what the hell? Why can't you?" And they're like, "no one knows how to. It's an arcade game." I'm like, yeah, I should start looking into it. I met with a few communities, maybe you're familiar with ZenHacks? That's a very good community for helping with reverse engineering. The people at the arcade community helped me get an arcade machine set up and ready. Shout out to NaomiMod. They kind of explained a lot of fundamentals of it. You know, just like you got to understand what you're looking for. A model is made up of vertices and meshes and, you know, music's made up of this and that. Like, if you know your pieces, even if you're a novice, you'll have some idea of what you're digging through. But the point is that, you know, I learned how to do that for Ollie King.
+
+K: I wrote scripts for model extraction, animation extraction, texture extraction, like the whole smorgasbord here. And I got into it that way. And then I came into the Riders Discord at some point because I wanted to advertise Ollie King. This guy named Joeatron... he was like, "oh, you know how to program?" And I'm like, "yeah." He's like, "want to learn assembly?" I'm like, "okay." And then I was like, "oh, this isn't so bad." Then I just kind of kept going from there.
+
+K: You know, I looked into Skyward Sword one time and I kind of helped with that, but I didn't post any of my commits, which I should really do because it's been like a year. And some other people asked me some individual things. So I'll write them like some Gecko codes, some PowerPC. But yeah, it's just kind of like taking interest in those games that no one else takes interest in. Because if no one else is going to do it, then you do it, right? It's not your responsibility, but if you're interested in it, right, get after it. Who knows if anyone else is going to do it for you in that time. Life's a learning opportunity - this is one of those cases where you start learning and you start learning skills that are not only really esoteric, but they can actually apply to other things, right? I mean, understanding how these bits and pieces work makes you really good for applying to jobs because a lot of these companies are like, "oh yeah, you know, we're going to stick you on this codebase and you have no idea what it is, but you better figure it out." And if you say, "oh, I know how to kind of read things from the ground up," then it's a lot more marketable too.
+
+K: So, I mean, that was not why I learned it initially, but I learned it because I had interest in games that no one else did. And, uh, I really kind of took that far, especially with Riders, especially with Ollie King. You know, those are kind of the two games that I'm mostly known for. Recently - on Riders - I've been super active, wrote a bunch of tools, you know, did a lot of the code for TE, even some of the other mods. I think I have at least one bit of code or more in every mod that exists to date now, including Plus, including Future, including that other thing that's coming out soon. Uh, I've written code for it all at this point. 
+
+L: I had no idea about that whole story with you swinging by with the intent to advertise and then Joeatron getting you interested in it, which is awesome because it seems like it's something you're really passionate about still. 
+
+K: I mean, I didn't think I was going to be here for that long. The reason why I actually came into Riders is because at some point on YouTube, I just kept seeing ZG videos. I got there somehow, some way. And then I was like, Hey guys, you know about this Ollie King game? It's really similar to Riders. And people were like, yeah, I know the soundtrack.
+
+K: And I'm like, that's just classic. You know? I mean, that's what everybody says. Cause nobody played it. It was 2004 arcade game, to be fair. 
+
+L: I feel like a lot of people say the same thing about Jet Set. I'll be like, "oh, you're a big Jet Set fan? Have you played the game?" And then they go "no, but I like the soundtrack." 
+
+K: Performative SmileBit players.
+
+L: Basically. Yeah.
+
+K: Sad, but they're not really available. The emulation for that is still really hard. I look at x86 and my eyes - like - glaze over, cause I'm so used to PowerPC, but I should really, really learn it at some point too. Cause Jet Set Radio Future people are actually started a decomp. They started the de-linking and decomp. So I might as well start learning it now so I can contribute to that. And then apparently Ollie King has some Jet Set Radio Future bits in there. I'll look into that, probably. That's really interesting.
+
+L: Is it true that you actually owned an Ollie King cab at one point?
+
+K: I still do, it's not the full cab. So the way it goes is that there's this guy on eBay named Yatant. Shout out to that guy. Last time I saw him, he was sick. So hopefully he got better. But, um, he sells old arcade, like the guts, like the inside console, essentially like a Naomi or something like that. 
+
+L: Sure.
+
+K: So he sold, uh, Chihiros, right? So I think it was like two Christmases ago. I got a Chihiro - it was an Outrun 2 Chihiro. It came with, uh, with a SATA adapter and a card to run it. But what I did is I got the Chihiro, a Raspberry Pi 4... I used it to netboot Ollie King and then also emulate the JVS input output, which, um, is just JVS is an input standard. So by emulating it, I can just plug in a controller, map some controls and then start it up and play it. So I have the guts of it sitting right next to me, actually. UI haven't turned it on in a while cause it doesn't work right now. I think I need to recap it like really bad, but I'm probably going get someone else to do it cause I just got paid recently. 
+
+K: I have an open OSSC right here to convert the signal cause the signal in the Chihiro is a little weird. It actually doesn't use a standard like RGB or VGA. It uses like part of the Japanese green signal for some reason, but the open OSSC just kind of covers for it. I use that and then a capture card to record footage. And if you Google Ollie King right now, my channel is the first one that comes up because I've recorded over 10 hours of footage. I'm also the first person to stream it on Twitch, probably the only person to ever stream it on Twitch... and the only person to have gotten the max rank, to have streamed the Kids' mode, which had no footage of it except for one video. 
+
+K: Uh, there were like two minutes of two Japanese girls doing it and, um, showing off a bunch of content that people didn't even know about. So yeah, I invested a lot of time and money into that. It was worth it though. It has so much character. It has - even though the gameplay is simple, I found so much in that gameplay, man. Like I didn't think a game like that would have skips or, or tech, or anything like that. 
+
+L: Right. 
+
+K: I found so many skips and tech in there that when I finish making this thing work on emulation, I want to put out a speedrun challenge so bad because I found so much that could - it doesn't break the game to a crazy degree - but it expands upon what you can do. I found how to jump over barriers. I found how to do six skips on one stage. I found tech that exists by just landing after you pull off an ollie. It's called an Ollie Burst because it gives you an extra burst of speed for a few frames. And that matters because like - on a ramp, you're using the Zero Gravity trick system. The closer you are to the edge of the ramp, the higher the trick rank is. And it secretly has a left and right leaning system. That was derived from Ollie King, actually... The way Ollie King works is very similar. I know a ludicrous amount about that game, probably more than most people on this planet.
+
+L: Have you ever had an opportunity to play it on the actual controller, like with the skateboard platform and everything?
+
+K: No. Buying that thing is really hard. It's a big platform. So the way the original cabinet works is it's a giant cabinet. It's a little slanted. So you can see the screen and there's a big platform with the board on it. That platform is huge, right? You step onto the platform and then you step onto the board. The platform has railings, so the player holds onto it. Um, getting the board by itself is a challenge and you have to have the whole platform. And I'm not putting that on the second floor of a house. You'd have to get a truck to transport it. I've never done that, but at Magfest, there's usually a guy who brings it in. 
+
+L: Magfest seems really cool. I'd love to go sometime for sure. I think I remember meeting someone when we were setting up that collaboration with the F-Zero people. I do remember meeting someone who actually owns one of the smaller F-Zero cabinets, which is really cool. That's kind of the closest thing I could compare it to that I'm familiar with.
+
+K: Yes... I think two or three different versions as well. They have AX, they have AX Monster Ride, and they have like, an entirely enclosed cabinet apparently. I don't really know a ton about that one, but like, yeah, they had crazy F-Zero cabs, like, from what I checked last time.
+
+L: Do you have a favorite programmer or anyone who was particularly inspirational when you were learning?
+
+K: Well, I gotta give props to the guy who taught me a lot. There was this guy who did a lot of RISC engineering on the original Jet Set Radio, because no one else did, and you know, he was kind of interested in it. There's this guy named EgregiousGuy, you know, shout out to him. Great guy.  He figured out how to extract the original Jet Set Radio models, because no one knew how to do that. They were strange, because they had shadow models baked into the player models. Very weird stuff. But after a long time, he figured it out. I don't know if he ever posted those scripts, but now the actual models are out there. So that's a very good thing. But yeah, that guy taught me a lot. Definitely, you know, kind of to learn about what to look for, kind of, you know, here's some quirks about certain things. So shout out to him. 
+
+I don't really follow like, a lot of programmers or watch a ton. I just kind of do my own thing, to be honest. You know?
+
+L: Totally fair. 
+
+K: Cool. Yeah.
+
+L: So a lot of people know you as, "The Guy Who Designs Crazy Gears." Would you say it's your approach to tailor the game to fit more in a sort of maximalist philosophy? And do you think competitive Riders works better that way?
+
+K: Well, I gotta say this. I will say that's a dated statement. And the reason why is because, you know, I was given a lot of freedom at the beginning when I was a complete novice at design. Like, I liked games, but designing them was something new. Basically, Protag was like, "I'm giving you the reins to have full creativity because I want crazy new ideas." I'm like, "yes, sir!"
+
+L: *laughs*
+
+K: I had no restrictions. And the problem was, is that our testers had no idea how to interpret anything that I made. So there wasn't really any good testing done on them at the time. This was like 2.1 to 2.2 era. And then afterwards, I was like, Oh my God, I've got to tone back and really reconsider. So like 2.3 and onward, you know, I started toning it down a lot. And I think I'm at that point where, you know, not only have I designed everything that I could think of low-key, I have a much more controlled process and tighter understanding on what works and what doesn't work. Like a lot more now, because we were like, Oh my God, this gear is so fast. Oh my God, this gear has got a crazy mechanic. And yeah, I think I learned a lot more from that. The problem is that people who still say that these days don't play TE anymore because a lot of those people kind of left so I would just, I would not really believe that. But yeah, you can probably ask a lot of people nowadays and the things are a lot more tame, a lot more controlled, I would say. 
+
+K: When it comes to maximalism... it was never really my goal to kind of push it there. It was always my goal to make something that was more inspired. So for example, like you have Crazy Taxi and Hang On, which Crazy Taxi... Oh, I loathed that gear when it first existed to me because like, I saw the 1.4 Direct and then I heard one line that really ticked me off a lot.
+
+L: Huh.
+
+K: It said, "The Crazy also gains about two rings when walking into walls. This is an homage to Crazy Taxi." I'm like, "no the hell it's not!" Because in Crazy Taxi, you start grinding into a wall, they start like getting mad at you and like swearing at you, bro.
+
+L: There might've been some rogue editorializing going on. I almost wonder if the person who scripted that thought it was a reference to when you drop someone off at their destination and you a fare payment. 
+
+K: No, I don't think so, because- you know what? That reminds me. So in Vanilla, when you hit somebody, you get rings on Crazy Taxi. I'm like 99% sure that happens because it's a Vanilla flag. But the point is, is that I'm pretty sure that dropping someone off and getting money, actually the reference for that was that attack that gives you money. So when you hit someone, you technically get into the space where you pick them up and you get the money, you know, or you drop them off and you get the money. I'm pretty sure that's the callback that they're trying to do with that one. But I would say like with Crazy Taxi, for example, I was like, wow, this design literally does boost really fast for an expensive amount of rings and bonks into walls and then tricks. So sure, the airtime thing makes sense because of the trick payout, that part was fine. But bonking into walls didn't. And the boost was too expensive. So the gear was really bad... and me being the creative novice that I was, I was like, why don't we give it a Crazy Dash or Limiter Cut? Whenever I make a reference to something, I always play it to make sure that I understand what the source material I'm drawing from from is. Watching footage is fine, playing is better...
+
+L: As you should.
+
+K: Yeah, yeah, no, I mean, absolutely. But you know, I was like, why don't we give it Limiter Cut? And I didn't really understand it at first, because I was like, oh, you hit brake and then you hit drive. No, you hit reverse and you hit drive. But we don't really have that in Riders. So I guess I substituted brake back then. And that was cool and all. But then it didn't really work. Because you know, if you brake normally on a normal gear, it's too slow. So then I figured out, oh, Crazy Stop exists. So you can stop on a dime and made the Gear work that way, right? And that was more inspired to me. But you know, our testers didn't really know at the time how to kind of do that. Or like, like, why would I even brake, man? No, it doesn't make sense to brake to boost. That doesn't make sense. 
+
+K: Hang-On was even more abstract. That was a gear with a manual transmission. It was kind of nuts. You know, you switch your level, you switch your, your stats. And it's like, oh, why not stay at the highest level? It's got too much cost. Why not stay at the lowest level? Well, it doesn't go that fast, but has low cost. So it became too abstract, right?
+
+L: To be fair to the testers, they're both pretty fundamentally different ways of playing Riders, right?
+
+K: Yeah. And that was kind of the problem is the thing, like, it's not their fault that they didn't understand it. It's kind of my fault for making Gears that were really crazy. But then again, they did pave the way for more sensible designs that could also be high concept later on. So I think it worked out in the end, because those two designs got toned down and are in such a really stable state right now that I think it all worked out. But at the beginning, it was really experimental. I think, you know, with a lot of work, Riders can be kept at a happy medium. I don't want minimalism in my riders. You know, there's, there's like Plus out there with really simple designs, and they don't really offer a lot of like, fun gameplay loops, I would argue. 
+
+K: I would say like a happy medium means that you can make gears with rewarding gameplay loops that wants you to explore a little bit more, rather than like the maximalist side where you're given a million options on a gear or an archetype, and then you're like, "what do I do with this?" Or minimalism, where you're given one option, but it has one designated outcome. And it's like, well, that's not really fun. 
+
+L: I guess using the modern Taxis as a sort of litmus test, would you say - this is kind of touching on what you said earlier with the minimalist versus maximalist argument - would you say the game right now is in kind of a nice happy medium as far as those two extremes... kind of in a good spot in the spectrum right now? 
+
+K: You know, I would say yes. Problem is that right now we're really deep in testing and we have a very fundamentally different game than what's currently available. So in terms of current live patch, I think mechanically, the game is in like a pretty decent state, right? A lot of stuff's been toned down, a lot of stuff's been reworked to be simpler, easier to understand. Rail MI used to exist the way it was, which was the only thing in the game that I could refer to that had like... calculus involved. It was like a hyperbola in there. Because the way that it worked is the slower the rail, the faster the MI bonus was on top. And I'm like, how are we going to explain this to people? Like in a mathematical sense, so they can know how much this works. 
+
+K: So we trashed that. And then we made it up to a certain number per stage, right? Based on the MI percentage, it gives you this much extra, which was a lot simpler, right? There used to be other stuff in the game where it was like, really, really specific, whereas like fly hoops, for example, it took your literal top speed, and then used it for the fly hoop speed calculation, which made certain gears too strong. We made it so that depending on the level, it just uses a certain speed for that calculation instead, right? So I think after a lot of like, simplifications of things, mechanically, where we'd previously gone too far, it's in a much better spot. And as far as development right now, we're in a really good cycle, I would say with 2.5. Now it's a very fundamentally different game. We did a lot of ripping and tearing. But the product of it all... I think it's probably the best thing we've come up with in a long time. We say that about every Riders patch, but now this one...
+
+L: *laughs*
+
+K: I don't know how to describe it without spoiling it. But we just did a lot of terraforming. We made a lot of fundamental reworks to certain things... before, there were certain annoying things that like really hurt, like imagine getting hit and losing a race off the second lap. That's pretty much gone now because of certain things we did to a certain archetype, right? Imagine losing a race to RNG. That's gone now. Because we got, well, this one thing, I'm gonna say, I don't know if I can, but we got rid of it. It's just straight up gone. It was a heated discussion for a while. But it's crazy how getting rid of that one thing changed the game so much for the better.

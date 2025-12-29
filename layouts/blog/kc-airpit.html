@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+
+  <p>{{ with .Params.intro }}{{ . }}{{ end }}</p>
+
+  {{ .Content }}
+
+  {{ $speakerMap := site.Data.speakers }}
+  {{ $transcriptPath := default "assets/transcripts/kc-ap.txt" .Params.transcriptFile }}
+
+  {{ if fileExists $transcriptPath }}
+    {{ $raw := readFile $transcriptPath }}
+    {{ $normalized := trim (replace $raw "\r\n" "\n") "\r\n " }}
+    {{ range split $normalized "\n\n" }}
+      {{ $line := trim . "\r\n " }}
+      {{ if $line }}
+        {{ $parts := split $line ":" }}
+        {{ if ge (len $parts) 2 }}
+          {{ $code := trim (index $parts 0) " " }}
+          {{ $textParts := after 1 $parts }}
+          {{ $text := trim (delimit $textParts ":") " " }}
+          {{ $speaker := or (index $speakerMap $code) (dict "name" $code "avatar" "/assets/avatars/default.webp") }}
+
+          <div class="quote-block">
+            <img src="{{ $speaker.avatar }}" alt="{{ $speaker.name }} avatar">
+            <div class="quote-content">
+              <div class="quote-author">{{ $speaker.name }}</div>
+              {{ $text | markdownify }}
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    <p class="transcript-missing">Transcript file not found ({{ $transcriptPath }}).</p>
+  {{ end }}
+</div>
+{{ end }}
