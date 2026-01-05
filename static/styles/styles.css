@@ -190,6 +190,7 @@ p {
 }
 
 #slider {
+  margin-top: 4rem;
   width: 100vw;
   height: 500px;
   overflow: hidden;

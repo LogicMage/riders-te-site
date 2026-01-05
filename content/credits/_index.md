@@ -14,8 +14,14 @@ dev_team_first = [
 dev_team_second = [
     "Zephyros-EI - Lead Artist",
     "KOLSAN - Character Artist",
+    "IPIP - Character Artist",
     "DanopolisStudios - Concept Artist",
     "Xinba - Modeller, Rigger, Texture Art",
     "Molly Vortex - Modeller, Rigging, Texture Art"
+]
+web_admin = [
+    "Logic_Mage - Webmaster",
+    "Akshayan - Old Site Restoration",
+    "Fahaddex - Old Site Restoration"
 ]
 +++

@@ -2,7 +2,9 @@
 <div class="container">
   <h1>{{ .Title }}</h1>
 
-  <p>{{ with .Params.intro }}{{ . }}{{ end }}</p>
+  <img src="/assets/crit.png" alt="SRTE Logo">
+
+  <h3>{{ with .Params.intro }}{{ . }}{{ end }}</h3>
 
   {{ .Content }}
 
